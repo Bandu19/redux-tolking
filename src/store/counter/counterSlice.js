@@ -21,7 +21,7 @@ export const counterSlice = createSlice({
 
     incrementBy: (state, action)  =>{
         console.log(action)
-        // EL action => Es la accion que estamos enviando
+        // ** EL action => Es la accion que estamos enviando
         state.counter += action.payload
     }
 
